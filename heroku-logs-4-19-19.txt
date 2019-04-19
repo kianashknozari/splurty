@@ -1,100 +1,100 @@
-2019-04-19T20:20:22.260533+00:00 app[web.1]: F, [2019-04-19T20:20:22.260493 #4] FATAL -- : [0e0844d2-12f4-42f1-8ca1-42a4f934cd81]
-2019-04-19T20:20:22.260595+00:00 app[web.1]: F, [2019-04-19T20:20:22.260545 #4] FATAL -- : [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
-2019-04-19T20:20:22.260598+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
-2019-04-19T20:20:22.260600+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:38:in `call_app'
-2019-04-19T20:20:22.260602+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
-2019-04-19T20:20:22.260603+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
-2019-04-19T20:20:22.260604+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
-2019-04-19T20:20:22.260606+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
-2019-04-19T20:20:22.260607+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
-2019-04-19T20:20:22.260608+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
-2019-04-19T20:20:22.260609+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
-2019-04-19T20:20:22.260611+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/method_override.rb:22:in `call'
-2019-04-19T20:20:22.260612+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/runtime.rb:22:in `call'
-2019-04-19T20:20:22.260614+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
-2019-04-19T20:20:22.260615+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
-2019-04-19T20:20:22.260617+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
-2019-04-19T20:20:22.260618+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/sendfile.rb:111:in `call'
-2019-04-19T20:20:22.260619+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
-2019-04-19T20:20:22.260620+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
-2019-04-19T20:20:22.260621+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
-2019-04-19T20:20:22.260622+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
-2019-04-19T20:20:22.260623+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
-2019-04-19T20:20:22.260625+00:00 app[web.1]: [0e0844d2-12f4-42f1-8ca1-42a4f934cd81] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
-2019-04-19T20:21:08.000000+00:00 app[api]: Build started by user kiannozari@icloud.com
-2019-04-19T20:21:30.214217+00:00 heroku[web.1]: Restarting
-2019-04-19T20:21:30.219202+00:00 heroku[web.1]: State changed from up to starting
-2019-04-19T20:21:31.514659+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
-2019-04-19T20:21:31.515646+00:00 app[web.1]: === puma shutdown: 2019-04-19 20:21:31 +0000 ===
-2019-04-19T20:21:31.515650+00:00 app[web.1]: - Goodbye!
-2019-04-19T20:21:31.515781+00:00 app[web.1]: Exiting
-2019-04-19T20:21:31.503052+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2019-04-19T20:21:31.596169+00:00 heroku[web.1]: Process exited with status 143
-2019-04-19T20:21:29.685607+00:00 app[api]: Release v22 created by user kiannozari@icloud.com
-2019-04-19T20:21:29.685607+00:00 app[api]: Deploy a2cf02d6 by user kiannozari@icloud.com
-2019-04-19T20:21:32.000000+00:00 app[api]: Build succeeded
-2019-04-19T20:21:34.682595+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 16305 -e production`
-2019-04-19T20:21:43.758989+00:00 heroku[web.1]: State changed from starting to up
-2019-04-19T20:24:52.786487+00:00 heroku[router]: at=info method=GET path="/" host=splurty-kian-nozari.herokuapp.com request_id=8e34bcb0-b61f-4fbf-8415-fa6b60699780 fwd="47.151.137.225" dyno=web.1 connect=1ms service=7ms status=404 bytes=1902 protocol=https
-2019-04-19T20:24:52.783837+00:00 app[web.1]: => Booting Puma
-2019-04-19T20:24:52.783863+00:00 app[web.1]: => Rails 5.2.3 application starting in production
-2019-04-19T20:24:52.783865+00:00 app[web.1]: => Run `rails server -h` for more startup options
-2019-04-19T20:24:52.783867+00:00 app[web.1]: Puma starting in single mode...
-2019-04-19T20:24:52.783869+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.3-p105), codename: Llamas in Pajamas
-2019-04-19T20:24:52.783871+00:00 app[web.1]: * Min threads: 5, max threads: 5
-2019-04-19T20:24:52.783873+00:00 app[web.1]: * Environment: production
-2019-04-19T20:24:52.783874+00:00 app[web.1]: * Listening on tcp://0.0.0.0:16305
-2019-04-19T20:24:52.783875+00:00 app[web.1]: Use Ctrl-C to stop
-2019-04-19T20:24:52.783891+00:00 app[web.1]: I, [2019-04-19T20:24:52.783706 #4]  INFO -- : [8e34bcb0-b61f-4fbf-8415-fa6b60699780] Started GET "/" for 47.151.137.225 at 2019-04-19 20:24:52 +0000
-2019-04-19T20:24:52.784638+00:00 app[web.1]: F, [2019-04-19T20:24:52.784547 #4] FATAL -- : [8e34bcb0-b61f-4fbf-8415-fa6b60699780]
-2019-04-19T20:24:52.784685+00:00 app[web.1]: F, [2019-04-19T20:24:52.784635 #4] FATAL -- : [8e34bcb0-b61f-4fbf-8415-fa6b60699780] ActionController::RoutingError (No route matches [GET] "/"):
-2019-04-19T20:24:52.784748+00:00 app[web.1]: F, [2019-04-19T20:24:52.784687 #4] FATAL -- : [8e34bcb0-b61f-4fbf-8415-fa6b60699780]
-2019-04-19T20:24:52.784856+00:00 app[web.1]: F, [2019-04-19T20:24:52.784770 #4] FATAL -- : [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
-2019-04-19T20:24:52.784858+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
-2019-04-19T20:24:52.784862+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:38:in `call_app'
-2019-04-19T20:24:52.784864+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
-2019-04-19T20:24:52.784866+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
-2019-04-19T20:24:52.784867+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
-2019-04-19T20:24:52.784869+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
-2019-04-19T20:24:52.784870+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
-2019-04-19T20:24:52.784872+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
-2019-04-19T20:24:52.784874+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
-2019-04-19T20:24:52.784875+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/method_override.rb:22:in `call'
-2019-04-19T20:24:52.784877+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/runtime.rb:22:in `call'
-2019-04-19T20:24:52.784883+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
-2019-04-19T20:24:52.784885+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
-2019-04-19T20:24:52.784887+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
-2019-04-19T20:24:52.784889+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/sendfile.rb:111:in `call'
-2019-04-19T20:24:52.784891+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
-2019-04-19T20:24:52.784892+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
-2019-04-19T20:24:52.784894+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
-2019-04-19T20:24:52.784895+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
-2019-04-19T20:24:52.784897+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
-2019-04-19T20:24:52.784899+00:00 app[web.1]: [8e34bcb0-b61f-4fbf-8415-fa6b60699780] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
-2019-04-19T20:24:55.591342+00:00 app[web.1]: I, [2019-04-19T20:24:55.591236 #4]  INFO -- : [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] Started GET "/" for 47.151.137.225 at 2019-04-19 20:24:55 +0000
-2019-04-19T20:24:55.592480+00:00 app[web.1]: F, [2019-04-19T20:24:55.592387 #4] FATAL -- : [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d]
-2019-04-19T20:24:55.592560+00:00 app[web.1]: F, [2019-04-19T20:24:55.592488 #4] FATAL -- : [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] ActionController::RoutingError (No route matches [GET] "/"):
-2019-04-19T20:24:55.592657+00:00 app[web.1]: F, [2019-04-19T20:24:55.592605 #4] FATAL -- : [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d]
-2019-04-19T20:24:55.592798+00:00 app[web.1]: F, [2019-04-19T20:24:55.592700 #4] FATAL -- : [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
-2019-04-19T20:24:55.592800+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
-2019-04-19T20:24:55.592803+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:38:in `call_app'
-2019-04-19T20:24:55.592805+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
-2019-04-19T20:24:55.592807+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
-2019-04-19T20:24:55.592808+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
-2019-04-19T20:24:55.592810+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
-2019-04-19T20:24:55.592811+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
-2019-04-19T20:24:55.592813+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
-2019-04-19T20:24:55.592814+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
-2019-04-19T20:24:55.592816+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/method_override.rb:22:in `call'
-2019-04-19T20:24:55.592818+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/runtime.rb:22:in `call'
-2019-04-19T20:24:55.592820+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
-2019-04-19T20:24:55.592822+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
-2019-04-19T20:24:55.592823+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
-2019-04-19T20:24:55.592825+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/sendfile.rb:111:in `call'
-2019-04-19T20:24:55.592826+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
-2019-04-19T20:24:55.592828+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
-2019-04-19T20:24:55.592829+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
-2019-04-19T20:24:55.592831+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
-2019-04-19T20:24:55.592832+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
-2019-04-19T20:24:55.592834+00:00 app[web.1]: [34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
-2019-04-19T20:24:55.594317+00:00 heroku[router]: at=info method=GET path="/" host=splurty-kian-nozari.herokuapp.com request_id=34d23ba5-e61d-4672-a2c7-8a58f5ec7c3d fwd="47.151.137.225" dyno=web.1 connect=1ms service=8ms status=404 bytes=1902 protocol=https
+2019-04-19T20:29:08.282082+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+2019-04-19T20:29:08.282084+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+2019-04-19T20:29:08.282086+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+2019-04-19T20:29:08.282087+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+2019-04-19T20:29:08.282088+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+2019-04-19T20:29:08.282090+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+2019-04-19T20:29:08.282091+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+2019-04-19T20:29:08.282092+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+2019-04-19T20:29:08.282093+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+2019-04-19T20:29:08.282094+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/method_override.rb:22:in `call'
+2019-04-19T20:29:08.282096+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/runtime.rb:22:in `call'
+2019-04-19T20:29:08.282097+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+2019-04-19T20:29:08.282099+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+2019-04-19T20:29:08.282100+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+2019-04-19T20:29:08.282101+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/sendfile.rb:111:in `call'
+2019-04-19T20:29:08.282102+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+2019-04-19T20:29:08.282103+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+2019-04-19T20:29:08.282104+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+2019-04-19T20:29:08.282105+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+2019-04-19T20:29:08.282107+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+2019-04-19T20:29:08.282108+00:00 app[web.1]: [95878746-5bfd-4a0b-b4c6-ad249c0757a6] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+2019-04-19T20:29:08.663582+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=splurty-kian-nozari.herokuapp.com request_id=30fd56d2-ed1a-4cf6-8bc5-543968dcc5b3 fwd="162.207.207.213" dyno=web.1 connect=0ms service=2ms status=200 bytes=143 protocol=https
+2019-04-19T20:46:07.000000+00:00 app[api]: Build started by user kiannozari@icloud.com
+2019-04-19T20:46:30.606251+00:00 app[api]: Deploy cf313e45 by user kiannozari@icloud.com
+2019-04-19T20:46:30.606251+00:00 app[api]: Release v23 created by user kiannozari@icloud.com
+2019-04-19T20:46:31.398225+00:00 heroku[web.1]: Restarting
+2019-04-19T20:46:31.401199+00:00 heroku[web.1]: State changed from up to starting
+2019-04-19T20:46:32.514542+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2019-04-19T20:46:32.517050+00:00 app[web.1]: === puma shutdown: 2019-04-19 20:46:32 +0000 ===
+2019-04-19T20:46:32.517054+00:00 app[web.1]: - Goodbye!
+2019-04-19T20:46:32.517217+00:00 app[web.1]: Exiting
+2019-04-19T20:46:32.495489+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-04-19T20:46:32.600688+00:00 heroku[web.1]: Process exited with status 143
+2019-04-19T20:46:33.000000+00:00 app[api]: Build succeeded
+2019-04-19T20:46:35.836076+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 40697 -e production`
+2019-04-19T20:46:43.433380+00:00 heroku[web.1]: State changed from starting to up
+2019-04-19T20:47:03.577032+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=splurty-kian-nozari.herokuapp.com request_id=987e026a-d83a-41ea-9132-058347ae9de1 fwd="47.151.137.225" dyno=web.1 connect=1ms service=4ms status=200 bytes=143 protocol=https
+2019-04-19T20:47:03.494064+00:00 heroku[router]: at=info method=GET path="/" host=splurty-kian-nozari.herokuapp.com request_id=3cf47107-198f-420f-8e86-ba4eb92a61f7 fwd="47.151.137.225" dyno=web.1 connect=1ms service=13ms status=404 bytes=1902 protocol=https
+2019-04-19T20:47:03.489604+00:00 app[web.1]: => Booting Puma
+2019-04-19T20:47:03.489638+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-04-19T20:47:03.489640+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-04-19T20:47:03.489646+00:00 app[web.1]: Puma starting in single mode...
+2019-04-19T20:47:03.489648+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.3-p105), codename: Llamas in Pajamas
+2019-04-19T20:47:03.489655+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-04-19T20:47:03.489656+00:00 app[web.1]: * Environment: production
+2019-04-19T20:47:03.489658+00:00 app[web.1]: * Listening on tcp://0.0.0.0:40697
+2019-04-19T20:47:03.489660+00:00 app[web.1]: Use Ctrl-C to stop
+2019-04-19T20:47:03.489693+00:00 app[web.1]: I, [2019-04-19T20:47:03.489456 #4]  INFO -- : [3cf47107-198f-420f-8e86-ba4eb92a61f7] Started GET "/" for 47.151.137.225 at 2019-04-19 20:47:03 +0000
+2019-04-19T20:47:03.490631+00:00 app[web.1]: F, [2019-04-19T20:47:03.490546 #4] FATAL -- : [3cf47107-198f-420f-8e86-ba4eb92a61f7]
+2019-04-19T20:47:03.490814+00:00 app[web.1]: F, [2019-04-19T20:47:03.490672 #4] FATAL -- : [3cf47107-198f-420f-8e86-ba4eb92a61f7] ActionController::RoutingError (No route matches [GET] "/"):
+2019-04-19T20:47:03.490904+00:00 app[web.1]: F, [2019-04-19T20:47:03.490844 #4] FATAL -- : [3cf47107-198f-420f-8e86-ba4eb92a61f7]
+2019-04-19T20:47:03.491037+00:00 app[web.1]: F, [2019-04-19T20:47:03.490955 #4] FATAL -- : [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+2019-04-19T20:47:03.491040+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+2019-04-19T20:47:03.491047+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+2019-04-19T20:47:03.491054+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+2019-04-19T20:47:03.491056+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+2019-04-19T20:47:03.491058+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+2019-04-19T20:47:03.491059+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+2019-04-19T20:47:03.491061+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+2019-04-19T20:47:03.491062+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+2019-04-19T20:47:03.491064+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+2019-04-19T20:47:03.491066+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/method_override.rb:22:in `call'
+2019-04-19T20:47:03.491067+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/runtime.rb:22:in `call'
+2019-04-19T20:47:03.491074+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+2019-04-19T20:47:03.491075+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+2019-04-19T20:47:03.491077+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+2019-04-19T20:47:03.491078+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/sendfile.rb:111:in `call'
+2019-04-19T20:47:03.491080+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+2019-04-19T20:47:03.491081+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+2019-04-19T20:47:03.491082+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+2019-04-19T20:47:03.491084+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+2019-04-19T20:47:03.491085+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+2019-04-19T20:47:03.491087+00:00 app[web.1]: [3cf47107-198f-420f-8e86-ba4eb92a61f7] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+2019-04-19T20:47:05.157259+00:00 heroku[router]: at=info method=GET path="/" host=splurty-kian-nozari.herokuapp.com request_id=687eaa5c-e145-4a99-8c73-84af0764fe54 fwd="47.151.137.225" dyno=web.1 connect=0ms service=4ms status=404 bytes=1902 protocol=https
+2019-04-19T20:47:05.153417+00:00 app[web.1]: I, [2019-04-19T20:47:05.153286 #4]  INFO -- : [687eaa5c-e145-4a99-8c73-84af0764fe54] Started GET "/" for 47.151.137.225 at 2019-04-19 20:47:05 +0000
+2019-04-19T20:47:05.154149+00:00 app[web.1]: F, [2019-04-19T20:47:05.154080 #4] FATAL -- : [687eaa5c-e145-4a99-8c73-84af0764fe54]
+2019-04-19T20:47:05.154204+00:00 app[web.1]: F, [2019-04-19T20:47:05.154154 #4] FATAL -- : [687eaa5c-e145-4a99-8c73-84af0764fe54] ActionController::RoutingError (No route matches [GET] "/"):
+2019-04-19T20:47:05.154274+00:00 app[web.1]: F, [2019-04-19T20:47:05.154228 #4] FATAL -- : [687eaa5c-e145-4a99-8c73-84af0764fe54]
+2019-04-19T20:47:05.154371+00:00 app[web.1]: F, [2019-04-19T20:47:05.154315 #4] FATAL -- : [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+2019-04-19T20:47:05.154374+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+2019-04-19T20:47:05.154376+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+2019-04-19T20:47:05.154378+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+2019-04-19T20:47:05.154379+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+2019-04-19T20:47:05.154381+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+2019-04-19T20:47:05.154383+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+2019-04-19T20:47:05.154384+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+2019-04-19T20:47:05.154386+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+2019-04-19T20:47:05.154387+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+2019-04-19T20:47:05.154389+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/method_override.rb:22:in `call'
+2019-04-19T20:47:05.154390+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/runtime.rb:22:in `call'
+2019-04-19T20:47:05.154392+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+2019-04-19T20:47:05.154394+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+2019-04-19T20:47:05.154395+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+2019-04-19T20:47:05.154397+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/sendfile.rb:111:in `call'
+2019-04-19T20:47:05.154398+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+2019-04-19T20:47:05.154400+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+2019-04-19T20:47:05.154401+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+2019-04-19T20:47:05.154403+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+2019-04-19T20:47:05.154404+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+2019-04-19T20:47:05.154406+00:00 app[web.1]: [687eaa5c-e145-4a99-8c73-84af0764fe54] vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
