@@ -20,3 +20,4 @@ production:
   username: <%= ENV['DATABASE_USER'] %>
   password: <%= ENV['SPLURTY_DATABASE_PASSWORD'] %>
   host: <%= ENV['HOST'] %>
+  port: <%= ENV['RAILS_PORT'] %>
